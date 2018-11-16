@@ -21,11 +21,13 @@ Welcome to A!
 </body>
 </html"
 
+mkdir A
 cd /var/www/html/index.html
 touch index.html
+chmod 777 index.html
 echo $a > index.html
-mkdir z
-cd z
+cd A
+cd /var/www/html/A.html
 touch A.html
 chmod 777 A.html
 echo $b > A.html
